@@ -13,7 +13,7 @@ import java.nio.file.Files;
 public class Server {
 	static int received = 0;
 	static int sent = 0;
-	DatagramSocket serverSocket = new DatagramSocket(9875);
+	DatagramSocket serverSocket = new DatagramSocket(9876);
 	static String fileName;
 	public Server() throws IOException{
 		
