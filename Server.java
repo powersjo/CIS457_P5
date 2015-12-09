@@ -62,7 +62,7 @@ public class Server {
 							byte[] sendData = concatByteArray(read1b, send1b);
 							DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, ipAddress, port);
 							
-							System.out.println("Sent Packet: " + amountRead + "|" + send1b.length);
+							//System.out.println("Sent Packet: " + amountRead + "|" + send1b.length);
 							serverSocket.send(sendPacket);
 
 							send = false;
